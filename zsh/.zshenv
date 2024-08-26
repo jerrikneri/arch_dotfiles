@@ -22,4 +22,4 @@ export SAVEHIST=10000
 
 # DO NOT ADD .zhistory to Git
 
-export DOTFILES="$HOME/dotfiles"
+export DOTFILES="$HOME/arch_dotfiles"
