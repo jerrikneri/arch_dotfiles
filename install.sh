@@ -13,3 +13,8 @@ ln -sf "$HOME/dotfiles/nvim/init.nvim" "$HOME/.config/nvim"
 # Link entire directory -f not needed as we wipe existing, and can't be used on directories
 rm -rf "$HOME/.config/X11"
 ln -s "$HOME/dotfiles/X11" "$HOME/.config"
+
+
+mkdir -p "$HOME/.config/zsh"
+ln -sf "$HOME/dotfiles/zsh/.zshenv" "$HOME"
+ln -sf "$HOME/dotfiles/zsh/.zshrc" "$HOME/.config/zsh"
