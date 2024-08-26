@@ -25,4 +25,4 @@ ln -sf "$HOME/dotfiles/zsh/.zshrc" "$HOME/.config/zsh"
 ln -sf "$HOME/dotfiles/zsh/aliases" "$HOME/.config/zsh/aliases"
 
 rm -rf "$HOME/.config/zsh/external"
-ls -sf "$HOME/dotfiles/zsh/external" "$HOME/.config/zsh"
+ln -sf "$HOME/dotfiles/zsh/external" "$HOME/.config/zsh"
