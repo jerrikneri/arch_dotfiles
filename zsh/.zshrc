@@ -1,6 +1,6 @@
 # ZSH Completion System
 autoload -U compinit; compinit
-autoload -U prompt_purification_setup; prompt_purification_setup
+autoload -Uz prompt_purification_setup; prompt_purification_setup
 
 # Autocomplete hidden files
 _comp_options+=(globdots)
